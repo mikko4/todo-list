@@ -3,7 +3,7 @@ import React from "react";
 function Header() {
   return (
     <header>
-      <h1>cr7 todos</h1>
+      <h1>CR7 Todos</h1>
     </header>
   );
 };
