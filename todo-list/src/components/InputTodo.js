@@ -20,21 +20,22 @@ class InputTodo extends React.Component {
         title: "",
       });
     } else {
-        alert("Field cannot be empty")
+      alert("field cannot be empty");
     }
   };
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <form onSubmit={this.handleSubmit} className="form-container">
         <input
           type="text"
-          placeholder="Add todo..."
+          className="input-text"
+          placeholder="add todo..."
           value={this.state.title}
           name="title"
           onChange={this.onChange}
         />
-        <button>Submit</button>
+        <button className="input-submit">submit</button>
       </form>
     );
   }
