@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import TodoItem from "./TodoItem";
-import { useState } from "react";
 
 const TodosList = (props) => {
   return (
