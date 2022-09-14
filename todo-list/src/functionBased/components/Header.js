@@ -19,7 +19,7 @@ function Header() {
           textAlign: "center",
         }}
       >
-        CR7 Todos
+        TO-DO-LIST
       </h1>
     </header>
   );
