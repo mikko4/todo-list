@@ -53,7 +53,7 @@ const TodoItem = (props) => {
         className={styles.textInput}
         value={title}
         onChange={(e) => {
-          props.setUpdate(e.target.value, id);
+          props.setUpdateProps(e.target.value, id);
         }}
         onKeyDown={handleUpdatedDone}
       />
